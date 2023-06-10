@@ -23,3 +23,7 @@ test('divide 4 / 0 to equal the divider can not be zero', () => {
 test('divide 6 / 3 to equal 2', () => {
   expect(math.division(6, 3)).toBe(2);
 });
+
+test('divide 6 / 2 to equal 3', () => {
+  expect(math.division(6, 2)).toBe(3);
+});
