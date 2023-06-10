@@ -39,3 +39,8 @@ test('divide 10 + 2 to equal 12', () => {
 });
 
 
+test('divide 10 - 2 to equal 8', () => {
+  expect(math.subtraction(10, 2)).toBe(8);
+});
+
+
