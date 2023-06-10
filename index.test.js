@@ -32,3 +32,10 @@ test('divide 6 / 2 to equal 3', () => {
 test('divide 10 / 2 to equal 5', () => {
   expect(math.division(10, 2)).toBe(5);
 });
+
+
+test('divide 10 + 2 to equal 12', () => {
+  expect(math.addition(10, 2)).toBe(12);
+});
+
+
