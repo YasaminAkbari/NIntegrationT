@@ -27,3 +27,8 @@ test('divide 6 / 3 to equal 2', () => {
 test('divide 6 / 2 to equal 3', () => {
   expect(math.division(6, 2)).toBe(3);
 });
+
+
+test('divide 10 / 2 to equal 5', () => {
+  expect(math.division(10, 2)).toBe(5);
+});
